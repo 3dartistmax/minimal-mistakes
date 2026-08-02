@@ -59,6 +59,57 @@ en-GB:
 en-AU:
   <<: *DEFAULT_EN
 
+ne: &DEFAULT_NE
+  skip_links                 : "लिङ्कहरू छोड्नुहोस्"
+  skip_primary_nav           : "प्रमुख नेभिगेसनमा जानुहोस्"
+  skip_content               : "सामग्रीमा जानुहोस्"
+  skip_footer                : "फुटरमा जानुहोस्"
+  page                       : "पृष्ठ"
+  pagination_previous        : "पछिल्लो"
+  pagination_next            : "अर्को"
+  breadcrumb_home_label      : "गृह"
+  breadcrumb_separator       : "/"
+  menu_label                 : "मेनु टगल गर्नुहोस्"
+  search_label               : "खोज टगल गर्नुहोस्"
+  toc_label                  : "यस पृष्ठमा"
+  ext_link_label             : "प्रत्यक्ष लिङ्क"
+  less_than                  : "कम"
+  minute_read                : "मिनेट पढ्न"
+  share_on_label             : "मा साझा गर्नुहोस्"
+  meta_label                 : ""
+  tags_label                 : "ट्यागहरू:"
+  categories_label           : "वर्गहरू:"
+  date_label                 : "अद्यावधिक:"
+  comments_label             : "टिप्पणी छोड्नुहोस्"
+  comments_title             : "टिप्पणीहरू"
+  more_label                 : "थप जान्नुहोस्"
+  related_label              : "तपाईंलाई पनि मनपर्न सक्छ"
+  follow_label               : "अनुसरण गर्नुहोस्:"
+  feed_label                 : "फीड"
+  powered_by                 : "सञ्चालित"
+  website_label              : "वेबसाइट"
+  email_label                : "इमेल"
+  recent_posts               : "हालैका पोस्टहरू"
+  undefined_wpm              : "_config.yml मा words_per_minute परिमाण निर्दिष्ट छैन"
+  comment_form_info          : "तपाईंको इमेल ठेगाना प्रकाशित गरिने छैन। अनिवार्य क्षेत्रहरू चिन्हित छन्"
+  comment_form_comment_label : "टिप्पणी"
+  comment_form_md_info       : "Markdown समर्थित छ।"
+  comment_form_name_label    : "नाम"
+  comment_form_email_label   : "इमेल ठेगाना"
+  comment_form_website_label : "वेबसाइट (वैकल्पिक)"
+  comment_btn_submit         : "टिप्पणी पठाउनुहोस्"
+  comment_btn_submitted      : "पठाइयो"
+  comment_success_msg        : "तपाईंको टिप्पणीका लागि धन्यवाद! स्वीकृत भएपछि साइटमा देखिनेछ।"
+  comment_error_msg          : "माफ गर्नुहोस्, पठाउनमा त्रुटि भयो। कृपया सबै आवश्यक क्षेत्रहरू भरेर पुन: प्रयास गर्नुहोस्।"
+  loading_label              : "लोड हुँदैछ..."
+  search_label_text          : "यहाँ खोज शब्द लेख्नुहोस्..."
+  search_placeholder_text    : "यहाँ खोज शब्द लेख्नुहोस्..."
+  search_algolia_no_results  : "नतिजा फेला परेन"
+  results_found              : "नतिजा फेला परे"
+  back_to_top                : "माथि फर्कनुहोस्"
+ne-NP:
+  <<: *DEFAULT_NE
+
 # Spanish
 # -------
 es: &DEFAULT_ES
