@@ -1,12 +1,12 @@
-# main links
+# मुख्य लिङ्कहरू (Main Links)
 main:
-  - title: "Quick-Start Guide"
+  - title: "त्वरित-आरम्भ मार्गदर्शिका" # Quick-Start Guide
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "बारेमा" # About
+    url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: "नमूना पोस्टहरू" # Sample Posts
+    url: /year-archive/
+  - title: "नमूना संग्रहहरू" # Sample Collections
+    url: /collection-archive/
+  - title: "साइटम्याप" # Sitemap
+    url: /sitemap/
