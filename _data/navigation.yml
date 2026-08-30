@@ -2,6 +2,8 @@
 main:
   - title: "मेरो बारेमा" # About
     url: /about/
+  - title: "स्थिति" # Status
+    url: /status/
   - title: "नमूना पोस्टहरू" # Sample Posts
     url: /year-archive/
   - title: "नमूना संग्रहहरू" # Sample Collections
