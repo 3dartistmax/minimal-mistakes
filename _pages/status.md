@@ -4,20 +4,17 @@ permalink: /status/
 layout: single
 ---
 
-<section class="status-list">
 {% for entry in site.status reversed %}
-<article class="status-item" style="margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid #ddd;">
-  <h2><a href="{{ entry.url }}">{{ entry.title }}</a></h2>
-  <p style="font-size: 0.9rem; color: #666;">{{ entry.date | date: "%B %d, %Y" }}</p>
+<article style="margin-bottom: 3rem;">
+  <h3>{{ entry.title }}</h3>
+  <small style="color: #999;">{{ entry.date | date: "%B %d, %Y" }}</small>
   {% if entry.image %}
   <div style="margin: 1rem 0;">
-    <img src="{{ entry.image }}" alt="{{ entry.title }}" style="max-width:100%; height:auto; border-radius: 4px;" />
+    <img src="{{ entry.image }}" alt="{{ entry.title }}" style="max-width: 100%; height: auto;" />
   </div>
   {% endif %}
-  <div class="status-body">
-    {{ entry.content }}
-  </div>
+  {{ entry.content }}
 </article>
 {% endfor %}
-</section>
+
 
