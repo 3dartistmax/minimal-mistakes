@@ -16,5 +16,3 @@ layout: single
   {{ entry.content }}
 </article>
 {% endfor %}
-
-

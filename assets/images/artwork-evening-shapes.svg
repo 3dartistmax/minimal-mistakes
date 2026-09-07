@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs><linearGradient id="evening" y2="1"><stop stop-color="#35245e"/><stop offset="1" stop-color="#f28f3b"/></linearGradient></defs>
+  <rect width="800" height="600" fill="url(#evening)"/>
+  <circle cx="610" cy="170" r="92" fill="#ffd166"/>
+  <path d="M0 500 190 315 330 445 500 260 800 500Z" fill="#24143e"/>
+  <path d="m80 470 130-120 90 90-70 40Z" fill="#ef476f"/>
+  <path d="m470 455 115-160 145 170Z" fill="#06d6a0"/>
+</svg>

@@ -275,6 +275,8 @@ plugins:
 collections:
   status:
     output: true
+  artworks:
+    output: false
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -348,4 +350,3 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
-
