@@ -5,13 +5,13 @@ layout: single
 ---
 
 {% for entry in site.status reversed %}
-<article style="margin-bottom: 3rem;">
+<article class="status-entry">
   <h3>{{ entry.title }}</h3>
-  <small style="color: #999;">{{ entry.date | date: "%B %d, %Y" }}</small>
+  <small class="status-entry__date">{{ entry.date | date: "%B %d, %Y" }}</small>
   {% if entry.image %}
-  <div style="margin: 1rem 0;">
+  <div class="status-entry__image">
     <a href="{{ entry.image | relative_url }}" data-lightbox>
-      <img src="{{ entry.image | relative_url }}" alt="{{ entry.title }}" style="max-width: 100%; height: auto;" />
+      <img src="{{ entry.image | relative_url }}" alt="{{ entry.title }}" />
     </a>
   </div>
   {% endif %}

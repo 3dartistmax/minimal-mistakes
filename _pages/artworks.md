@@ -4,7 +4,7 @@ permalink: /artworks/
 layout: single
 ---
 
-<label for="artwork-filter">कला खोज्नुहोस्</label>
+<label class="artwork-filter__label" for="artwork-filter">कला खोज्नुहोस्</label>
 <input id="artwork-filter" class="artwork-filter" type="search" placeholder="शीर्षक वा विवरण..." aria-label="कला खोज्नुहोस्">
 
 <div class="artwork-grid" id="artwork-grid">
