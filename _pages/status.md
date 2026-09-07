@@ -10,7 +10,7 @@ layout: single
   <small style="color: #999;">{{ entry.date | date: "%B %d, %Y" }}</small>
   {% if entry.image %}
   <div style="margin: 1rem 0;">
-    <img src="{{ entry.image }}" alt="{{ entry.title }}" style="max-width: 100%; height: auto;" />
+    <img src="{{ entry.image | relative_url }}" alt="{{ entry.title }}" style="max-width: 100%; height: auto;" />
   </div>
   {% endif %}
   {{ entry.content }}
