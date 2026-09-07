@@ -8,20 +8,6 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-.home-intro {
-  margin-bottom: 2rem;
-}
-
-.home-intro__eyebrow {
-  color: $primary-color;
-  font-weight: bold;
-  margin-bottom: 0.25rem;
-}
-
-.home-section {
-  margin: 2rem 0;
-}
-
 .artwork-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -122,9 +108,7 @@ search: false
 }
 
 @media (max-width: 600px) {
-  .home-intro h1 {
-    font-size: 1.8rem;
-  }
+
 
   .artwork-grid {
     grid-template-columns: 1fr;
