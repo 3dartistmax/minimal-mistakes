@@ -2,7 +2,7 @@
 main:
   - title: "लेखसंग्रह"
     url: /posts/
-  - title: "कलासंग्रह"
+  - title: "कलसंग्रह"
     url: /artworks/
   - title: "हालको स्थिति"
     url: /status/
