@@ -2,3 +2,33 @@
 layout: home
 author_profile: true
 ---
+
+<div class="home-intro">
+  <p class="home-intro__eyebrow">निकोश चौलगाईं</p>
+  <h1>लेख, कला र हालका विचारहरू</h1>
+  <p>लेखसंग्रह, कलासंग्रह र छोटा स्थिति अपडेटहरू एउटै ठाउँमा।</p>
+  <p><a class="btn btn--primary" href="{{ '/posts/' | relative_url }}">लेखहरू पढ्नुहोस्</a>
+  <a class="btn" href="{{ '/artworks/' | relative_url }}">कला हेर्नुहोस्</a></p>
+</div>
+
+<div class="home-section">
+  <h2>विशेष कला</h2>
+  <div class="artwork-grid artwork-grid--compact">
+    {% assign featured_artworks = site.artworks | slice: 0, 3 %}
+    {% for artwork in featured_artworks %}
+      <a class="artwork-card" href="{{ artwork.url | relative_url }}">
+        {% if artwork.image %}<img src="{{ artwork.image | relative_url }}" alt="{{ artwork.title }}">{% endif %}
+        <strong>{{ artwork.title }}</strong>
+      </a>
+    {% endfor %}
+  </div>
+</div>
+
+<div class="home-section">
+  <h2>हालको स्थिति</h2>
+  {% assign latest_status = site.status | sort: "date" | reverse | first %}
+  {% if latest_status %}
+    <p>{{ latest_status.content | strip_html | truncate: 180 }}</p>
+    <a href="{{ '/status/' | relative_url }}">सबै स्थिति अपडेटहरू हेर्नुहोस् →</a>
+  {% endif %}
+</div>

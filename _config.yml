@@ -143,6 +143,9 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "सम्पर्क"
+      icon: "fas fa-fw fa-envelope"
+      url: /contact/
     - label: "Twitter"
       icon: "fab fa-fw fa-square-x-twitter"
       # url:
@@ -276,7 +279,7 @@ collections:
   status:
     output: true
   artworks:
-    output: false
+    output: true
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -343,6 +346,21 @@ defaults:
     values:
       layout: single
       author_profile: true
+  - scope:
+      path: "_artworks"
+      type: artworks
+    values:
+      layout: artwork
+      author_profile: false
+  - scope:
+      path: "_status"
+      type: status
+    values:
+      layout: single
+      author_profile: false
+
+after_footer_scripts:
+  - /assets/js/site-enhancements.js
 
 category_archive:
   type: liquid

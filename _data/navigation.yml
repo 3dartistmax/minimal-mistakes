@@ -8,3 +8,5 @@ main:
     url: /status/
   - title: "मेरो बारेमा"
     url: /about/
+  - title: "सम्पर्क"
+    url: /contact/

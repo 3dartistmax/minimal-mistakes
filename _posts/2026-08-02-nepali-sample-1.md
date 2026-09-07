@@ -2,6 +2,7 @@
 title: "नमस्ते — मेरो पहिलो नेपाली पोस्ट"
 date: 2026-08-02 16:45:00 +0200
 categories: nepali
+tags: [लेख, नमूना]
 layout: single
 ---
 
