@@ -4,5 +4,7 @@ main:
     url: /posts/
   - title: "कलसंग्रह"
     url: /artworks/
+  - title: "हालको स्थिति"
+    url: /status/
   - title: "मेरो बारेमा"
     url: /about/
