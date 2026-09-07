@@ -1,12 +1,8 @@
 # मुख्य लिङ्कहरू (Main Links)
 main:
-  - title: "मेरो बारेमा" # About
+  - title: "लेखसंग्रह"
+    url: /posts/
+  - title: "कलसंग्रह"
+    url: /artworks/
+  - title: "मेरो बारेमा"
     url: /about/
-  - title: "स्थिति" # Status
-    url: /status/
-  - title: "नमूना पोस्टहरू" # Sample Posts
-    url: /year-archive/
-  - title: "नमूना संग्रहहरू" # Sample Collections
-    url: /collection-archive/
-  - title: "साइटम्याप" # Sitemap
-    url: /sitemap/
