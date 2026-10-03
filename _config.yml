@@ -146,6 +146,12 @@ footer:
     - label: "सम्पर्क"
       icon: "fas fa-fw fa-envelope"
       url: /contact/
+    - label: "कानुनी सूचना"
+      icon: "fas fa-fw fa-scale-balanced"
+      url: /impressum/
+    - label: "गोपनीयता नीति"
+      icon: "fas fa-fw fa-shield-halved"
+      url: /datenschutz/
     - label: "Twitter"
       icon: "fab fa-fw fa-square-x-twitter"
       # url:
