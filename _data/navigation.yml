@@ -10,3 +10,7 @@ main:
     url: /about/
   - title: "सम्पर्क"
     url: /contact/
+  - title: "कानुनी सूचना"
+    url: /impressum/
+  - title: "गोपनीयता नीति"
+    url: /datenschutz/
