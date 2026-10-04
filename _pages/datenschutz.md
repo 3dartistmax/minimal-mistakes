@@ -44,9 +44,18 @@ Cloudflare Web Analytics बन्द छ। यो वेबसाइटले 
 
 साइटको theme ले उपकरणमा उपलब्ध system font प्रयोग गर्छ; Google Fonts बाहिरबाट लोड गरिएको छैन। Cloudflare का सुरक्षा सुविधाले आवश्यक परेको अवस्थामा कुकी वा challenge प्रयोग गर्न सक्छन्। कुन कुकी राखिन्छ र कति समय रहन्छ भन्ने कुरा अनुरोध तथा सक्रिय सुरक्षा सुविधामा निर्भर हुन सक्छ। Cloudflare को [कुकीसम्बन्धी जानकारी](https://developers.cloudflare.com/fundamentals/reference/policies-compliances/cloudflare-cookies/) हेर्नुहोस्।
 
-### प्रशोधनको उद्देश्य र कानुनी आधार
+### कानुनी आधार (GDPR)
 
-प्राविधिक अनुरोधहरू वेबसाइट उपलब्ध गराउन, सुरक्षा कायम राख्न र सेवा भरपर्दो रूपमा चलाउन प्रशोधन हुन्छन्। GDPR धारा 6(1)(f) अन्तर्गत वैध हित सम्भावित कानुनी आधार हो: वेबसाइट सुरक्षित, स्थिर र उपलब्ध राख्ने हित। इमेल अनुरोधको प्रकृतिअनुसार GDPR धारा 6(1)(f), सम्झौता गर्नुअघिका कदमका लागि धारा 6(1)(b), वा कानुनी दायित्वका लागि धारा 6(1)(c) लागू हुन सक्छ।
+GDPR को धारा 6(1) मा व्यक्तिगत जानकारी प्रशोधनका छवटा आधार छन्। यो वेबसाइटका सन्दर्भमा:
+
+- **धारा 6(1)(f)—वैध हित:** वेबसाइटका प्राविधिक अनुरोध पुर्‍याउने, सुरक्षा कायम राख्ने र भरपर्दो रूपमा चलाउने प्रयोजनका लागि लागू हुन सक्छ। इमेलबाट आएका सामान्य प्रश्नको जवाफ दिन पनि लागू हुन सक्छ। सञ्चालकको हित आवश्यक र आगन्तुकका अधिकारभन्दा बलियो छ कि छैन भन्ने सन्तुलन लागू हुन्छ।
+- **धारा 6(1)(b)—सम्झौता वा सम्झौताअघिका कदम:** आगन्तुकले सम्झौता गर्नुअघिका कदम मागेमा मात्र लागू हुन सक्छ। हाल वेबसाइटमा खरिद वा व्यावसायिक सम्झौता सुविधा छैन।
+- **धारा 6(1)(c)—कानुनी दायित्व:** कुनै विशेष जानकारी राख्न वा उपलब्ध गराउन कानुनले बाध्य पारेको अवस्थामा मात्र लागू हुन्छ।
+- **धारा 6(1)(a)—सहमति:** कुनै वैकल्पिक प्रशोधनका लागि सहमति मागिएको र दिइएको अवस्थामा मात्र लागू हुन्छ। हाल Cloudflare Web Analytics र Google Analytics बन्द छन्।
+- **धारा 6(1)(d)—महत्त्वपूर्ण हित:** जीवन वा शारीरिक सुरक्षासँग सम्बन्धित अत्यावश्यक अवस्थामा मात्र लागू हुन्छ; सामान्य वेबसाइट सञ्चालनमा यो आधार प्रयोग गरिएको छैन।
+- **धारा 6(1)(e)—सार्वजनिक कार्य/अधिकार:** सार्वजनिक निकायलाई कानुनले दिएको कार्यका लागि मात्र लागू हुन्छ; यो निजी वेबसाइटले त्यस्तो सार्वजनिक कार्य गर्दैन।
+
+यी आधारहरू सबै एकैचोटि लागू हुँदैनन्; सम्बन्धित उद्देश्यका लागि लागू हुने आधार मात्र प्रयोग हुन्छ। उपकरणमा जानकारी भण्डारण वा पहुँच गर्ने कुकी/समान प्रविधिका लागि जर्मनीको TDDDG §25 पनि लागू हुन सक्छ: आवश्यक सेवा दिन अनिवार्य प्रविधिका लागि कानुनले दिएको अपवाद लागू हुन सक्छ; अन्य अवस्थामा पहिले सहमति आवश्यक हुन सक्छ। Cloudflare का वास्तविक cookie तथा सुरक्षा सेटिङअनुसार यसको मूल्याङ्कन गर्नुहोस्।
 
 ### EEA बाहिर प्रशोधन
 
@@ -95,9 +104,18 @@ Beiträge enthalten Teilen-Links für X, Facebook, LinkedIn und Bluesky. Dabei h
 
 Das Theme dieser Website verwendet Systemschriftarten, die auf Ihrem Gerät verfügbar sind; Google Fonts werden nicht extern geladen. Cloudflare kann bei Bedarf Cookies oder Challenge-Seiten für Sicherheitsfunktionen einsetzen. Welche Cookies verwendet werden und wie lange sie gespeichert bleiben, kann von der Anfrage und den aktiven Sicherheitsfunktionen abhängen. Weitere Informationen: [Cloudflare-Dokumentation zu Cookies](https://developers.cloudflare.com/fundamentals/reference/policies-compliances/cloudflare-cookies/).
 
-### Zwecke und Rechtsgrundlagen
+### Rechtsgrundlagen (DSGVO)
 
-Technische Anfragen werden verarbeitet, um die Website bereitzustellen, ihre Sicherheit zu gewährleisten und einen zuverlässigen Betrieb zu ermöglichen. Als mögliche Rechtsgrundlage kommt Art. 6 Abs. 1 lit. f DSGVO in Betracht: das berechtigte Interesse an einer sicheren, stabilen und verfügbaren Website. Für E-Mail-Anfragen können abhängig von ihrem Inhalt Art. 6 Abs. 1 lit. f DSGVO, bei vorvertraglichen Maßnahmen Art. 6 Abs. 1 lit. b DSGVO oder bei gesetzlichen Pflichten Art. 6 Abs. 1 lit. c DSGVO einschlägig sein.
+Art. 6 Abs. 1 DSGVO nennt sechs mögliche Rechtsgrundlagen für die Verarbeitung personenbezogener Daten. Für diese Website gilt im Einzelnen:
+
+- **Art. 6 Abs. 1 lit. f DSGVO – berechtigte Interessen:** Kann für die Auslieferung technischer Website-Anfragen, Sicherheit und zuverlässigen Betrieb sowie für die Beantwortung allgemeiner E-Mail-Anfragen einschlägig sein. Erforderlichkeit und Interessenabwägung sind dabei zu berücksichtigen.
+- **Art. 6 Abs. 1 lit. b DSGVO – Vertrag oder vorvertragliche Maßnahmen:** Kann gelten, wenn ein Besucher vorvertragliche Maßnahmen anfragt. Die Website bietet derzeit keine Kauf- oder Vertragsabschlussfunktion.
+- **Art. 6 Abs. 1 lit. c DSGVO – rechtliche Verpflichtung:** Gilt nur, soweit eine konkrete gesetzliche Pflicht eine Verarbeitung oder Aufbewahrung verlangt.
+- **Art. 6 Abs. 1 lit. a DSGVO – Einwilligung:** Gilt nur, wenn für eine optionale Verarbeitung eine Einwilligung eingeholt und erteilt wird. Cloudflare Web Analytics und Google Analytics sind derzeit ausgeschaltet.
+- **Art. 6 Abs. 1 lit. d DSGVO – lebenswichtige Interessen:** Betrifft nur erforderliche Maßnahmen zum Schutz lebenswichtiger Interessen und wird für den normalen Websitebetrieb nicht herangezogen.
+- **Art. 6 Abs. 1 lit. e DSGVO – öffentliche Aufgabe oder Ausübung öffentlicher Gewalt:** Betrifft gesetzlich übertragene Aufgaben öffentlicher Stellen; diese private Website erfüllt keine solche Aufgabe.
+
+Nicht alle Rechtsgrundlagen gelten gleichzeitig; maßgeblich ist jeweils die Grundlage für den konkreten Zweck. Für das Speichern von Informationen auf oder den Zugriff auf das Endgerät kann zusätzlich § 25 TDDDG gelten. Für unbedingt erforderliche technische Funktionen kann die gesetzliche Ausnahme greifen; für andere Zugriffe kann eine vorherige Einwilligung erforderlich sein. Welche Regel greift, hängt von den tatsächlich eingesetzten Cloudflare-Cookies und Sicherheitseinstellungen ab.
 
 ### Verarbeitung außerhalb des EWR
 
@@ -146,9 +164,18 @@ Posts contain sharing links for X, Facebook, LinkedIn, and Bluesky. These are no
 
 This website’s theme uses system fonts available on your device; Google Fonts are not loaded externally. Cloudflare may use cookies or challenge pages when required for security features. The cookies used and how long they remain may depend on the request and the active security features. See [Cloudflare’s cookie documentation](https://developers.cloudflare.com/fundamentals/reference/policies-compliances/cloudflare-cookies/).
 
-### Purposes and legal bases
+### Legal bases (GDPR)
 
-Technical requests are processed to provide the website, maintain its security, and support reliable operation. GDPR Article 6(1)(f) (legitimate interests) may apply, based on the interest in keeping the website secure, stable, and available. Depending on the content of an email inquiry, GDPR Article 6(1)(f) may apply; Article 6(1)(b) may apply to pre-contractual steps; and Article 6(1)(c) may apply to legal obligations.
+GDPR Article 6(1) provides six possible legal bases for processing personal data. For this website:
+
+- **Article 6(1)(f) — legitimate interests:** May apply to delivering technical website requests, maintaining security and reliable operation, and responding to general email inquiries. The processing must be necessary and balanced against visitors’ rights and interests.
+- **Article 6(1)(b) — contract or pre-contractual steps:** May apply if a visitor requests steps before entering a contract. The website currently has no purchasing or contract-signing feature.
+- **Article 6(1)(c) — legal obligation:** Applies only where a specific legal duty requires the processing or retention of information.
+- **Article 6(1)(a) — consent:** Applies only where consent is requested and given for optional processing. Cloudflare Web Analytics and Google Analytics are currently switched off.
+- **Article 6(1)(d) — vital interests:** Applies only where processing is necessary to protect vital interests; it is not used for ordinary website operation.
+- **Article 6(1)(e) — public task or official authority:** Applies to legally assigned public functions; this private website does not perform such a function.
+
+These bases do not all apply at once; the basis relevant to each purpose applies. German TDDDG Section 25 may also apply to storing information on, or accessing information from, a visitor’s device. A legal exception may cover technologies strictly necessary to provide a requested service; other access may require prior consent. The outcome depends on the Cloudflare cookies and security settings actually used.
 
 ### Processing outside the EEA
 
