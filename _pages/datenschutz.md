@@ -28,21 +28,19 @@ Musterstraße 1<br>
 
 यो साइट GitHub Pages मा होस्ट गरिएको छ। GitHub का अनुसार GitHub Pages खोल्ने आगन्तुकको IP ठेगाना सुरक्षा प्रयोजनका लागि लग तथा भण्डारण गरिन्छ। पृष्ठ माग्दा ब्राउजरले पठाउने प्राविधिक अनुरोध जानकारी पनि सेवा सञ्चालनका लागि प्रयोग हुन सक्छ। थप जानकारी: [GitHub गोपनीयता विवरण](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
 
-### ३. Cloudflare DNS
+### ३. Cloudflare proxy र अनुरोधसम्बन्धी मेटाडेटा
 
-वेबसाइटको DNS का लागि Cloudflare प्रयोग गरिनेछ। यो मस्यौदा DNS-only (grey-cloud) सेटअपमा आधारित छ: यस अवस्थामा Cloudflare ले DNS नाम समाधान गर्छ, तर वेबसाइटको HTTP/HTTPS ट्राफिक Cloudflare proxy बाट जाँदैन र GitHub Pages मा पुग्छ। DNS सेवा चलाउन Cloudflare ले DNS अनुरोधसम्बन्धी प्राविधिक मेटाडेटा प्रशोधन गर्न सक्छ। सेटिङ orange-cloud proxy मा बदलिएमा यो विवरण फेरि अद्यावधिक गर्नुपर्छ।
+Cloudflare को DNS Records स्क्रिनसटमा `nikosh.com.np` र `blog.nikosh.com.np` का वेबसाइट रेकर्डहरू proxied (orange-cloud) देखिएका छन्। त्यसैले HTTP/HTTPS अनुरोधहरू GitHub Pages पुग्नुअघि Cloudflare को नेटवर्कबाट जान्छन्। अनुरोध पुर्‍याउन, सुरक्षा र कार्यसम्पादनका लागि Cloudflare ले IP ठेगाना, अनुरोध गरिएको URL, समय, referrer, browser/user-agent, status code र स्थानान्तरणसम्बन्धी प्राविधिक जानकारी प्रशोधन गर्न सक्छ। Cloudflare को zone/dashboard analytics ले अनुरोध तथा ट्राफिकसम्बन्धी समष्टिगत मेट्रिक्स देखाउँछ।
+
+Cloudflare ले कुन डेटा कति समय राख्छ भन्ने कुरा सक्रिय सुविधाहरू र खाता सेटिङमा निर्भर हुन्छ; यहाँ पुष्टि नभएको निश्चित retention अवधि वा कुकीहरूको सूची दाबी गरिएको छैन। थप जानकारी: [Cloudflare गोपनीयता नीति](https://www.cloudflare.com/privacypolicy/) र [Cloudflare cookies सम्बन्धी कागजात](https://developers.cloudflare.com/fundamentals/reference/policies-compliances/cloudflare-cookies/).
 
 ### ४. Cloudflare Web Analytics
 
-यस repository मा अहिले Cloudflare Web Analytics को JavaScript beacon छैन, त्यसैले हालको प्रकाशित साइटले यस एकीकरणमार्फत analytics पठाउँदैन। DNS-only साइटमा Analytics सक्षम गर्न Cloudflare ड्यासबोर्डबाट दिइएको JavaScript snippet साइटमा थप्नुपर्छ।
-
-स्निपेट सक्रिय भएपछि Cloudflare Web Analytics ले भ्रमणका मेट्रिक्सका लागि देश, वेबसाइट/होस्ट, पृष्ठ पथ, referer, उपकरणको प्रकार, ब्राउजर, अपरेटिङ सिस्टम र नेभिगेसन प्रकारजस्ता आयाम प्रशोधन गर्न सक्छ। विवरण: [Cloudflare Web Analytics का आयामहरू](https://developers.cloudflare.com/web-analytics/data-metrics/dimensions/) र [Cloudflare गोपनीयता नीति](https://www.cloudflare.com/privacypolicy/).
-
-Analytics सक्रिय गर्नुअघि यसको लागू कानुनी आधार र जर्मनीमा आवश्यक सहमति/सूचना व्यवस्था तय गर्नुहोस्। वास्तविक snippet थपेपछि यस पृष्ठमा सक्रिय सेवा, उद्देश्य, कानुनी आधार, भण्डारण अवधि र आवश्यक परे सहमति/विकल्पहरू यथार्थ रूपमा लेख्नुहोस्।
+Cloudflare Web Analytics हाल Cloudflare ड्यासबोर्डमा बन्द गरिएको छ र साइट repository मा यसको JavaScript beacon पनि छैन। त्यसैले हाल छुट्टै Web Analytics beacon बाट मापन भइरहेको छैन। यो Cloudflare proxy बाट आउने अनुरोध/zone analytics भन्दा फरक सेवा हो। भविष्यमा Web Analytics खोलिएमा यो जानकारी र लागू कानुनी आधार पुनः जाँचेर यो सूचना अद्यावधिक गर्नुहोस्।
 
 ### ५. फन्ट, कुकी र बाह्य अनुरोध
 
-जाँचिएको Minimal Mistakes theme ले प्रणालीमा उपलब्ध फन्टहरूको सूची प्रयोग गर्छ; साइटको सक्रिय कोडमा Google Fonts अनुरोध भेटिएन। यसले प्रत्येक आगन्तुकको उपकरणमा फन्ट उपलब्ध छ भन्ने ग्यारेन्टी गर्दैन। GitHub-hosted theme assets र साइटका आफ्नै तस्वीर/स्क्रिप्ट सामान्य रूपमा GitHub Pages बाट आउँछन्। Analytics वा अर्को बाह्य सेवा थपेपछि यसको अनुरोध र डेटा प्रशोधन पुनः जाँच्नुहोस्।
+जाँचिएको Minimal Mistakes theme ले प्रणालीमा उपलब्ध फन्टहरूको सूची प्रयोग गर्छ; साइटको सक्रिय कोडमा Google Fonts अनुरोध भेटिएन। यसले प्रत्येक आगन्तुकको उपकरणमा फन्ट उपलब्ध छ भन्ने ग्यारेन्टी गर्दैन। Theme assets र साइटका आफ्नै तस्वीर/स्क्रिप्ट GitHub Pages बाट आउँछन्, जबकि वेबसाइटका proxied अनुरोध Cloudflare बाट जान्छन्। अर्को बाह्य सेवा थपेपछि यसको अनुरोध र डेटा प्रशोधन पुनः जाँच्नुहोस्।
 
 ### ६. इमेल सम्पर्क
 
@@ -54,7 +52,7 @@ Analytics सक्रिय गर्नुअघि यसको लागू 
 
 ### ८. यस सूचनामा परिवर्तन
 
-होस्टिङ, DNS, Analytics वा साइटका अन्य सेवाहरू परिवर्तन हुँदा यो सूचना मिलाउनुहोस्। प्रदायकका नीति तथा सेवा सेटिङहरू पनि नियमित रूपमा जाँच्नुहोस्।
+होस्टिङ, proxy, Analytics वा साइटका अन्य सेवाहरू परिवर्तन हुँदा यो सूचना मिलाउनुहोस्। प्रदायकका नीति तथा सेवा सेटिङहरू पनि नियमित रूपमा जाँच्नुहोस्।
 
 </section>
 
@@ -77,21 +75,19 @@ E-Mail: `contact@nikosh.com.np`
 
 Diese Website wird mit GitHub Pages gehostet. GitHub erklärt, dass IP-Adressen von Besuchern einer GitHub-Pages-Website zu Sicherheitszwecken protokolliert und gespeichert werden. Außerdem können technische Request-Daten verarbeitet werden, die der Browser beim Seitenaufruf übermittelt. Weitere Informationen: [GitHub-Datenschutzerklärung](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
 
-### 3. Cloudflare DNS
+### 3. Cloudflare-Proxy und Anfragemetadaten
 
-Cloudflare soll für DNS verwendet werden. Dieser Entwurf geht von DNS-only (graue Wolke) aus: Cloudflare löst dabei DNS-Namen auf, leitet aber den HTTP-/HTTPS-Webverkehr nicht über einen Cloudflare-Proxy; die Website wird direkt von GitHub Pages ausgeliefert. Für den DNS-Betrieb kann Cloudflare technische Metadaten zu DNS-Anfragen verarbeiten. Bei einer Umstellung auf den orangefarbenen Proxy muss dieser Abschnitt überprüft und angepasst werden.
+Auf dem Screenshot der Cloudflare-DNS-Einstellungen sind die Website-Einträge für `nikosh.com.np` und `blog.nikosh.com.np` als proxied (orange Wolke) dargestellt. HTTP-/HTTPS-Anfragen laufen daher über das Cloudflare-Netzwerk, bevor sie GitHub Pages erreichen. Für die Übermittlung der Anfragen sowie Sicherheits- und Leistungsfunktionen kann Cloudflare die IP-Adresse, angeforderte URL, Zeitpunkt, Referrer, Browser/User-Agent, Statuscode und technische Daten zur Übertragung verarbeiten. Die Cloudflare-Zone bzw. das Dashboard zeigt aggregierte Anfragemetriken.
+
+Welche Daten Cloudflare wie lange speichert, hängt von den aktivierten Funktionen und Kontoeinstellungen ab. Deshalb werden hier keine nicht bestätigten konkreten Speicherfristen oder Cookie-Listen behauptet. Weitere Informationen: [Cloudflare-Datenschutzerklärung](https://www.cloudflare.com/privacypolicy/) und [Cloudflare-Dokumentation zu Cookies](https://developers.cloudflare.com/fundamentals/reference/policies-compliances/cloudflare-cookies/).
 
 ### 4. Cloudflare Web Analytics
 
-Im Repository ist derzeit kein JavaScript-Beacon von Cloudflare Web Analytics eingebunden. Die veröffentlichte Website übermittelt daher aktuell keine Analysedaten über diese Integration. Für eine DNS-only-Website muss das von Cloudflare bereitgestellte JavaScript-Snippet manuell eingebunden werden.
-
-Nach der Aktivierung kann Cloudflare Web Analytics Messwerte und Dimensionen wie Land, Website/Host, Seitenpfad, Referrer, Gerätetyp, Browser, Betriebssystem und Navigationstyp verarbeiten. Siehe [Cloudflare-Web-Analytics-Dimensionen](https://developers.cloudflare.com/web-analytics/data-metrics/dimensions/) und die [Datenschutzerklärung von Cloudflare](https://www.cloudflare.com/privacypolicy/).
-
-Vor dem Einbinden müssen die einschlägige Rechtsgrundlage und etwaige Einwilligungs- und Informationspflichten für den Einsatz in Deutschland geklärt werden. Nach der tatsächlichen Aktivierung sind Zweck, Rechtsgrundlage, Speicherdauer und gegebenenfalls Einwilligungs-/Widerspruchsmöglichkeiten anhand der konkreten Konfiguration korrekt zu ergänzen.
+Cloudflare Web Analytics ist laut Ihrer Angabe im Cloudflare-Dashboard ausgeschaltet; außerdem ist kein JavaScript-Beacon dafür im Website-Repository vorhanden. Daher wird derzeit kein separates Web-Analytics-Beacon eingesetzt. Dies ist von den Anfrage-/Zonenanalysen zu unterscheiden, die mit dem Cloudflare-Proxy verbunden sind. Falls Web Analytics später aktiviert wird, prüfen und aktualisieren Sie diese Angaben sowie die dafür geltenden Rechtsgrundlagen.
 
 ### 5. Schriftarten, Cookies und externe Abrufe
 
-Das geprüfte Minimal-Mistakes-Theme verwendet systemseitige Schriftarten; im aktiven Website-Code wurde kein Abruf von Google Fonts gefunden. Ob eine Schriftart verfügbar ist, hängt vom Gerät des Besuchers ab. Theme-Dateien sowie die Bilder und Skripte der Website werden grundsätzlich über GitHub Pages ausgeliefert. Werden Analytics oder andere externe Dienste ergänzt, müssen deren Datenflüsse erneut geprüft und hier beschrieben werden.
+Das geprüfte Minimal-Mistakes-Theme verwendet systemseitige Schriftarten; im aktiven Website-Code wurde kein Abruf von Google Fonts gefunden. Ob eine Schriftart verfügbar ist, hängt vom Gerät des Besuchers ab. Theme-Dateien sowie die Bilder und Skripte der Website werden über GitHub Pages ausgeliefert; Website-Anfragen laufen zusätzlich über den Cloudflare-Proxy. Werden weitere externe Dienste ergänzt, müssen deren Datenflüsse erneut geprüft und hier beschrieben werden.
 
 ### 6. Kontakt per E-Mail
 
@@ -103,7 +99,7 @@ Nach Maßgabe der DSGVO und des sonst anwendbaren Datenschutzrechts können Sie 
 
 ### 8. Änderungen
 
-Diese Erklärung ist zu aktualisieren, sobald sich Hosting, DNS, Analytics oder andere Dienste der Website ändern. Prüfen Sie außerdem regelmäßig die aktuellen Bedingungen und Einstellungen der Anbieter.
+Diese Erklärung ist zu aktualisieren, sobald sich Hosting, Proxy, Analytics oder andere Dienste der Website ändern. Prüfen Sie außerdem regelmäßig die aktuellen Bedingungen und Einstellungen der Anbieter.
 
 </section>
 
@@ -126,21 +122,19 @@ Email: `contact@nikosh.com.np`
 
 This website is hosted on GitHub Pages. GitHub states that visitors’ IP addresses are logged and stored for security purposes when a GitHub Pages site is visited. Technical request information sent by a visitor’s browser may also be processed to provide the service. See the [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
 
-### 3. Cloudflare DNS
+### 3. Cloudflare proxy and request metadata
 
-Cloudflare is intended to provide DNS. This draft assumes DNS-only (grey-cloud) records: Cloudflare resolves DNS names, but does not proxy the website’s HTTP/HTTPS traffic; GitHub Pages serves the website directly. Cloudflare may process technical metadata associated with DNS queries to provide DNS services. If you switch to orange-cloud proxying, review and update this section.
+The Cloudflare DNS Records screenshot shows the website records for `nikosh.com.np` and `blog.nikosh.com.np` as proxied (orange cloud). HTTP/HTTPS requests therefore pass through Cloudflare’s network before reaching GitHub Pages. To deliver requests and provide security and performance functions, Cloudflare may process the visitor’s IP address, requested URL, request time, referrer, browser/user-agent, status code, and technical transfer information. Cloudflare’s zone/dashboard analytics displays aggregated request and traffic metrics.
+
+The data Cloudflare retains and the retention period depend on the enabled features and account settings. This notice therefore does not assert unverified exact retention periods or cookie lists. See [Cloudflare’s Privacy Policy](https://www.cloudflare.com/privacypolicy/) and [Cloudflare’s cookie documentation](https://developers.cloudflare.com/fundamentals/reference/policies-compliances/cloudflare-cookies/).
 
 ### 4. Cloudflare Web Analytics
 
-There is currently no Cloudflare Web Analytics JavaScript beacon in this repository, so the published site does not yet send analytics through that integration. A DNS-only site requires manually adding the JavaScript snippet provided in the Cloudflare dashboard to enable Web Analytics.
-
-Once enabled, Cloudflare Web Analytics may process measurement dimensions such as country, site/host, page path, referrer, device type, browser, operating system, and navigation type. See [Cloudflare Web Analytics dimensions](https://developers.cloudflare.com/web-analytics/data-metrics/dimensions/) and [Cloudflare’s Privacy Policy](https://www.cloudflare.com/privacypolicy/).
-
-Before adding the beacon, determine the applicable legal basis and any consent or notice requirements for deployment in Germany. After it is actually enabled, update this notice to accurately state the service, purposes, legal basis, retention period, and any applicable consent or opt-out choices for the actual configuration.
+You confirmed that Cloudflare Web Analytics is switched off in the Cloudflare dashboard; there is also no Web Analytics JavaScript beacon in the website repository. Therefore, no separate Web Analytics beacon is currently in use. This is distinct from request/zone analytics associated with the Cloudflare proxy. If Web Analytics is enabled later, review and update this notice and the applicable legal basis.
 
 ### 5. Fonts, cookies, and external requests
 
-The inspected Minimal Mistakes theme uses system font stacks; no Google Fonts request was found in the active website code. Which font is displayed depends on the visitor’s device. Theme assets and the site’s own images and scripts are generally served by GitHub Pages. Recheck the data flows and update this notice before adding analytics or other external services.
+The inspected Minimal Mistakes theme uses system font stacks; no Google Fonts request was found in the active website code. Which font is displayed depends on the visitor’s device. Theme assets and the site’s own images and scripts are served by GitHub Pages; website requests also pass through Cloudflare’s proxy. Recheck the data flows and update this notice before adding other external services.
 
 ### 6. Contact by email
 
@@ -152,6 +146,6 @@ Subject to the GDPR and other applicable privacy laws, you may have rights to ac
 
 ### 8. Changes
 
-Update this notice when the website’s hosting, DNS, analytics, or other services change. Regularly check the providers’ current terms and settings as well.
+Update this notice when the website’s hosting, proxy, analytics, or other services change. Regularly check the providers’ current terms and settings as well.
 
 </section>
