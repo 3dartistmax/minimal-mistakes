@@ -1,27 +1,30 @@
 ---
-title: "कानुनी सूचना (Impressum)"
+title: "Impressum"
 permalink: /impressum/
 layout: single
 author_profile: false
 ---
 
-> **नमुना पृष्ठ:** प्रकाशनअघि `[कोष्ठकभित्रका विवरण]` आफ्नो सही जानकारीले बदल्नुहोस्। लागू नहुने अंश हटाउनुहोस्। यो कानुनी सल्लाह होइन।
+## Angaben gemäß § 5 DDG
 
-## वेबसाइट सञ्चालक
-
-**नाम:** Max Mustermann *(काल्पनिक उदाहरण—आफ्नो कानुनी नाम राख्नुहोस्)*<br>
-**ठेगाना:** Musterstraße 1 *(काल्पनिक उदाहरण—आफ्नो सेवा-योग्य ठेगाना राख्नुहोस्)*<br>
-12345 Musterstadt
+Nikosh Chaulagain<br>
+c/o Impressumservice Dein-Impressum<br>
+Stettiner Str. 41<br>
+35410 Hungen<br>
 Deutschland
 
-## सम्पर्क
+## Kontakt
 
-**इमेल:** `contact@nikosh.com.np` *(प्रकाशित इमेल सही छ कि छैन जाँच्नुहोस्)*
+E-Mail: [3dartistmax@gmail.com](mailto:3dartistmax@gmail.com)
 
-## सामग्रीका लागि जिम्मेवार
+Handynummer: 012
 
-Max Mustermann, Musterstraße 1, 12345 Musterstadt, Deutschland *(काल्पनिक उदाहरण—आफ्नो वास्तविक विवरणले बदल्नुहोस्)*
+## Redaktionell verantwortlich
 
-## अतिरिक्त जानकारी
+Nikosh Chaulagain (Anschrift wie oben)
 
-यदि तपाईंको वेबसाइट वा गतिविधिमा लागू हुन्छ भने, यहाँ दर्ता, व्यावसायिक, कर वा अन्य आवश्यक विवरण थप्नुहोस्। लागू हुने नियम तपाईंको देश र वेबसाइटको प्रयोगअनुसार फरक हुन सक्छ।
+## Verbraucherstreitbeilegung / Universalschlichtungsstelle
+
+Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
+
+[Vorlagenquelle: Dein-Impressum](https://portal.deinimpressum.org/?sec=vorlagen#impressum)
