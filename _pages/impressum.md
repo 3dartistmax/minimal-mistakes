@@ -1,9 +1,13 @@
 ---
-title: "Impressum"
+title: "Impressum / कानुनी सूचना / Legal notice"
 permalink: /impressum/
 layout: single
 author_profile: false
 ---
+
+**Sprache / भाषा / Language:** [Deutsch](#deutsch) · [नेपाली](#nepali) · [English](#english)
+
+<section id="deutsch" lang="de">
 
 ## Angaben gemäß § 5 DDG
 
@@ -26,5 +30,59 @@ Nikosh Chaulagain (Anschrift wie oben)
 ## Verbraucherstreitbeilegung / Universalschlichtungsstelle
 
 Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
+
+</section>
+
+<section id="nepali" lang="ne">
+
+## कानुनी सूचना (§ 5 DDG अनुसार)
+
+Nikosh Chaulagain<br>
+c/o Impressumservice Dein-Impressum<br>
+Stettiner Str. 41<br>
+35410 Hungen<br>
+जर्मनी
+
+### सम्पर्क
+
+इमेल: [3dartistmax@gmail.com](mailto:3dartistmax@gmail.com)
+
+मोबाइल नम्बर: 012
+
+### सम्पादकीय सामग्रीका लागि जिम्मेवार
+
+Nikosh Chaulagain (माथि उल्लेखित ठेगाना)
+
+### उपभोक्ता विवाद समाधान / विश्वव्यापी मध्यस्थता निकाय
+
+हामी उपभोक्ता मध्यस्थता निकायसमक्ष विवाद समाधान प्रक्रियामा सहभागी हुन इच्छुक वा बाध्य छैनौँ।
+
+</section>
+
+<section id="english" lang="en">
+
+## Legal notice (pursuant to Section 5 DDG)
+
+Nikosh Chaulagain<br>
+c/o Impressumservice Dein-Impressum<br>
+Stettiner Str. 41<br>
+35410 Hungen<br>
+Germany
+
+### Contact
+
+Email: [3dartistmax@gmail.com](mailto:3dartistmax@gmail.com)
+
+Mobile number: 012
+
+### Editorially responsible
+
+Nikosh Chaulagain (address as above)
+
+### Consumer dispute resolution / Universal Arbitration Board
+
+We are not willing or obliged to participate in dispute resolution proceedings before a consumer arbitration board.
+
+</section>
 
 [Vorlagenquelle: Dein-Impressum](https://portal.deinimpressum.org/?sec=vorlagen#impressum)
