@@ -22,6 +22,7 @@ c/o Impressumservice Dein-Impressum<br>
 Stettiner Str. 41<br>
 35410 Hungen, Deutschland<br>
 इमेल: [contact@nikosh.com.np](mailto:contact@nikosh.com.np)
+फोन: +49 15233960083
 
 ### २. होस्टिङ र वेबसाइट अनुरोधहरू
 
@@ -84,6 +85,7 @@ c/o Impressumservice Dein-Impressum<br>
 Stettiner Str. 41<br>
 35410 Hungen, Deutschland<br>
 E-Mail: [contact@nikosh.com.np](mailto:contact@nikosh.com.np)
+Telefon: +49 15233960083
 
 ### 2. Hosting und Website-Anfragen
 
@@ -146,6 +148,7 @@ c/o Impressumservice Dein-Impressum<br>
 Stettiner Str. 41<br>
 35410 Hungen, Germany<br>
 Email: [contact@nikosh.com.np](mailto:contact@nikosh.com.np)
+Phone: +49 15233960083
 
 ### 2. Hosting and website requests
 
