@@ -21,7 +21,7 @@ Deutschland
 
 E-Mail: [contact@nikosh.com.np](mailto:contact@nikosh.com.np)
 
-Handynummer: 012
+Handynummer: +49 15233960083
 
 ## Redaktionell verantwortlich
 
@@ -47,7 +47,7 @@ Stettiner Str. 41<br>
 
 इमेल: [contact@nikosh.com.np](mailto:contact@nikosh.com.np)
 
-मोबाइल नम्बर: 012
+मोबाइल नम्बर: +49 15233960083
 
 ### सम्पादकीय सामग्रीका लागि जिम्मेवार
 
@@ -73,7 +73,7 @@ Germany
 
 Email: [contact@nikosh.com.np](mailto:contact@nikosh.com.np)
 
-Mobile number: 012
+Mobile number: +49 15233960083
 
 ### Editorially responsible
 
