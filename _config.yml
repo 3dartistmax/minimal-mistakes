@@ -146,10 +146,10 @@ footer:
     - label: "सम्पर्क"
       icon: "fas fa-fw fa-envelope"
       url: /contact/
-    - label: "कानुनी सूचना"
+    - label: "कानुनी सूचना / Impressum"
       icon: "fas fa-fw fa-scale-balanced"
       url: /impressum/
-    - label: "गोपनीयता नीति"
+    - label: "गोपनीयता नीति / Datenschutzerklärung"
       icon: "fas fa-fw fa-shield-halved"
       url: /datenschutz/
     - label: "Twitter"
