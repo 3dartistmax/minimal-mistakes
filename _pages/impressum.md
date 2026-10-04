@@ -19,7 +19,7 @@ Deutschland
 
 ## Kontakt
 
-E-Mail: [3dartistmax@gmail.com](mailto:3dartistmax@gmail.com)
+E-Mail: [contact@nikosh.com.np](mailto:contact@nikosh.com.np)
 
 Handynummer: 012
 
@@ -45,7 +45,7 @@ Stettiner Str. 41<br>
 
 ### सम्पर्क
 
-इमेल: [3dartistmax@gmail.com](mailto:3dartistmax@gmail.com)
+इमेल: [contact@nikosh.com.np](mailto:contact@nikosh.com.np)
 
 मोबाइल नम्बर: 012
 
@@ -71,7 +71,7 @@ Germany
 
 ### Contact
 
-Email: [3dartistmax@gmail.com](mailto:3dartistmax@gmail.com)
+Email: [contact@nikosh.com.np](mailto:contact@nikosh.com.np)
 
 Mobile number: 012
 

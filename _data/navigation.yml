@@ -8,8 +8,6 @@ main:
     url: /status/
   - title: "मेरो बारेमा"
     url: /about/
-  - title: "सम्पर्क"
-    url: /contact/
   - title: "कानुनी सूचना / Impressum"
     url: /impressum/
   - title: "गोपनीयता नीति / Datenschutzerklärung"

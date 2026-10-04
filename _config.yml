@@ -143,9 +143,6 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "सम्पर्क"
-      icon: "fas fa-fw fa-envelope"
-      url: /contact/
     - label: "कानुनी सूचना / Impressum"
       icon: "fas fa-fw fa-scale-balanced"
       url: /impressum/
