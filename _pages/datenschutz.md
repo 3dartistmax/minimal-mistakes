@@ -11,7 +11,7 @@ author_profile: false
 
 ## गोपनीयता नीति
 
-यो सूचना `nikosh.com.np` वेबसाइट र यसको `blog.nikosh.com.np` उपडोमेनमा तपाईंका व्यक्तिगत जानकारी कसरी प्रशोधन हुन्छ भन्नेबारे हो।
+यो सूचना `nikosh.com.np` वेबसाइटमा तपाईंका व्यक्तिगत जानकारी कसरी प्रशोधन हुन्छ भन्नेबारे हो।
 
 ### जिम्मेवार व्यक्ति
 
@@ -62,7 +62,7 @@ GDPR अनुसार तपाईंलाई आफ्नो व्यक्
 
 ## Datenschutzerklärung
 
-Diese Datenschutzerklärung informiert darüber, wie personenbezogene Daten auf `nikosh.com.np` und der Subdomain `blog.nikosh.com.np` verarbeitet werden.
+Diese Datenschutzerklärung informiert darüber, wie personenbezogene Daten auf `nikosh.com.np` verarbeitet werden.
 
 ### Verantwortlicher
 
@@ -113,7 +113,7 @@ Nach Maßgabe der DSGVO können Sie Auskunft, Berichtigung, Löschung oder Einsc
 
 ## Privacy notice
 
-This notice explains how personal data is processed on `nikosh.com.np` and the `blog.nikosh.com.np` subdomain.
+This notice explains how personal data is processed on `nikosh.com.np`.
 
 ### Controller
 
