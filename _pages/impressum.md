@@ -7,7 +7,7 @@ author_profile: false
 
 **Sprache / भाषा / Language:** [Deutsch](#deutsch) · [नेपाली](#nepali) · [English](#english)
 
-<section id="deutsch" lang="de">
+<a id="deutsch"></a>
 
 ## Angaben gemäß § 5 DDG
 
@@ -31,9 +31,9 @@ Nikosh Chaulagain (Anschrift wie oben)
 
 Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
 
-</section>
+---
 
-<section id="nepali" lang="ne">
+<a id="nepali"></a>
 
 ## कानुनी सूचना (§ 5 DDG अनुसार)
 
@@ -57,9 +57,9 @@ Nikosh Chaulagain (माथि उल्लेखित ठेगाना)
 
 हामी उपभोक्ता मध्यस्थता निकायसमक्ष विवाद समाधान प्रक्रियामा सहभागी हुन इच्छुक वा बाध्य छैनौँ।
 
-</section>
+---
 
-<section id="english" lang="en">
+<a id="english"></a>
 
 ## Legal notice (pursuant to Section 5 DDG)
 
@@ -83,6 +83,6 @@ Nikosh Chaulagain (address as above)
 
 We are not willing or obliged to participate in dispute resolution proceedings before a consumer arbitration board.
 
-</section>
+---
 
 [Vorlagenquelle: Dein-Impressum](https://portal.deinimpressum.org/?sec=vorlagen#impressum)
